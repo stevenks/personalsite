@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "music" => "pages#music"
   get "blog" => "pages#blog"
+  get "quotes" => "pages#quotes"
   get "contact" => "pages#contact"
 
   # The priority is based upon order of creation: first created -> highest priority.
